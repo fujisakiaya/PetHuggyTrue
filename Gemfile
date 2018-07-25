@@ -15,6 +15,7 @@ gem 'omniauth-facebook'
 gem "paperclip", "~> 6.0.0"
 gem 'dropzonejs-rails'
 gem "figaro","~> 1.1.0"
+gem 'sprockets', '~> 3.7', '>= 3.7.2'
 
 group :production do
     gem 'pg','~> 0.19.0'
